@@ -71,7 +71,7 @@ disabledAI = true;
 
 // CA Remove corpse manager
 
-corpseManagerMode = 1;
+corpseManagerMode = 0;
 corpseLimit = 15;
 corpseRemovalMinTime = 60; //seconds
 corpseRemovalMaxTime = 300; //seconds
@@ -526,9 +526,9 @@ class CfgFunctions
 	{
 		class util
 		{
-			class addLaptopAction
+			class addIntelActions
 			{
-				file = "bub\bub_fnc_addLaptopAction.sqf";
+				file = "bub\bub_fnc_addIntelActions.sqf";
 			};
 			class addDefuseAction
 			{
@@ -634,6 +634,10 @@ class CfgFunctions
 			{
 				file = "bub\bub_fnc_acreSetup.sqf";
 				postInit = 1;
+			};
+			class revealMarkersOnDeleted
+			{
+				file = "bub\bub_fnc_revealMarkersOnDeleted.sqf";
 			};
 		};
 	};

@@ -493,6 +493,74 @@ switch (_typeofUnit) do
 		_unit setUnitLoadout [["rhs_weap_ak74m_zenitco01_b33","rhs_acc_tgpa","rhs_acc_perst1ik_ris","rhs_acc_1p87",["rhs_30Rnd_545x39_7N10_AK",30],[],"rhs_acc_grip_ffg2"],[],["rhs_weap_pya","","","",["rhs_mag_9x19_17",17],[],""],["rhs_uniform_vdv_emr",[["ACE_fieldDressing",6],["ACE_morphine",6],["ACRE_PRC343",1],["ACE_bloodIV",1],["ACE_MapTools",1]]],["rhs_6sh92_digi_headset",[["ACE_Flashlight_XL50",1],["rhs_mag_rgo",4,1],["rhs_mag_zarya2",4,1],["O_IR_Grenade",1,1],["ACE_Chemlight_Orange",2,1],["rhs_30Rnd_545x39_7N22_AK",4,30]]],["rhs_assault_umbts",[["ACE_CableTie",2],["rhs_30Rnd_545x39_7N22_AK",6,30],["rhs_30Rnd_545x39_AK_green",5,30],["rhs_mag_9x19_17",3,17]]],"rhs_6b27m_digi","",["ACE_Yardage450","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","rhsusf_ANPVS_15"]];
 	};
 	
+	
+	
+	
+	
+	case "nk-rif":
+	{
+		_unit setUnitLoadout [["hlc_rifle_ak47","","","",["hlc_30Rnd_762x39_b_ak",30],[],""],[],[],["rhs_uniform_m88_patchless",[["ACE_fieldDressing",3],["ACE_morphine",2],["ACE_Banana",1],["SmokeShell",1,1]]],["UK3CB_BAF_V_PLCE_Webbing_Plate_OLI",[["rhs_30Rnd_762x39mm",6,30],["rhs_mag_rgo",2,1]]],[],"UNS_M1_1A","",["Binocular","","","",[],[],""],["ItemMap","","","","ItemWatch",""]];
+	};
+	
+	case "nk-ar":
+	{
+		_unit setUnitLoadout [["hlc_rifle_rpk_75rnd","","","",["hlc_75Rnd_762x39_m_rpk",75],[],""],[],[],["rhs_uniform_m88_patchless",[["ACE_fieldDressing",3],["ACE_morphine",2],["SmokeShell",1,1]]],["UK3CB_BAF_V_PLCE_Webbing_Plate_OLI",[["rhs_mag_rgo",2,1],["hlc_75Rnd_762x39_m_rpk",3,75]]],[],"UNS_M1_1A","",["Binocular","","","",[],[],""],["ItemMap","","","","ItemWatch",""]];
+	};
+	
+	
+	
+	
+	
+	case "crate_med":
+	{
+		clearWeaponCargoGlobal _unit;
+		clearMagazineCargoGlobal _unit;
+		clearItemCargoGlobal _unit;
+		clearBackpackCargoGlobal _unit;
+		
+		_unit addMagazineCargoGlobal ["rhs_30Rnd_545x39_7N22_AK", 60];
+		_unit addMagazineCargoGlobal ["rhs_mag_9x19_17", 20];
+		_unit addMagazineCargoGlobal ["rhs_mag_rgo", 10];
+		_unit addMagazineCargoGlobal ["rhs_100Rnd_762x54mmR_7N26", 10];
+		_unit addMagazineCargoGlobal ["hlc_10rnd_12g_buck_S12", 20];
+		_unit addMagazineCargoGlobal ["hlc_10rnd_12g_slug_S12", 10];
+		_unit addMagazineCargoGlobal ["rhs_VOG25", 10];
+		_unit addMagazineCargoGlobal ["hlc_GRD_White", 5];
+		
+		_unit addMagazineCargoGlobal ["UK3CB_BAF_12G_Pellets", 20];
+		_unit addMagazineCargoGlobal ["UK3CB_BAF_9_17Rnd", 20];
+		_unit addMagazineCargoGlobal ["rhs_mag_m67", 10];
+		_unit addMagazineCargoGlobal ["UK3CB_BAF_12G_Slugs", 10];
+		_unit addMagazineCargoGlobal ["rhs_200rnd_556x45_B_SAW", 10];
+		_unit addMagazineCargoGlobal ["UK3CB_BAF_556_30Rnd", 40];
+		_unit addMagazineCargoGlobal ["UK3CB_BAF_556_30Rnd_T", 20];
+		_unit addMagazineCargoGlobal ["UK3CB_BAF_1Rnd_HE_Grenade_Shell", 10];
+		_unit addMagazineCargoGlobal ["UK3CB_BAF_UGL_FlareWhite_F", 5];
+		
+		_unit addMagazineCargoGlobal ["16Rnd_9x21_Mag", 20];
+		_unit addMagazineCargoGlobal ["100Rnd_580x42_Mag_F", 10];
+		_unit addMagazineCargoGlobal ["30Rnd_580x42_Mag_F", 40];
+		_unit addMagazineCargoGlobal ["30Rnd_580x42_Mag_Tracer_F", 20];
+		_unit addMagazineCargoGlobal ["1Rnd_HE_Grenade_shell", 10];
+		_unit addMagazineCargoGlobal ["UGL_FlareWhite_F", 5];
+		
+		_unit addMagazineCargoGlobal ["rhsusf_mag_17Rnd_9x19_JHP", 20];
+		_unit addMagazineCargoGlobal ["hlc_100rnd_556x45_EPR_G36", 10];
+		_unit addMagazineCargoGlobal ["hlc_30rnd_556x45_MDIM_G36", 40];
+		_unit addMagazineCargoGlobal ["hlc_30rnd_556x45_TDIM_G36", 20];
+		_unit addMagazineCargoGlobal ["1Rnd_HE_Grenade_shell", 10];
+		_unit addMagazineCargoGlobal ["UGL_FlareWhite_F", 5];
+		
+		_unit addMagazineCargoGlobal ["rhs_30Rnd_762x39mm", 20];
+		
+		_unit addItemCargoGlobal ["ACE_fieldDressing", 60];
+		_unit addItemCargoGlobal ["ACE_morphine", 60];
+		_unit addItemCargoGlobal ["ACE_epinephrine", 30];
+		_unit addItemCargoGlobal ["ACE_bloodIV", 20];
+		_unit addItemCargoGlobal ["ACRE_PRC343", 24];
+		_unit addItemCargoGlobal ["ACRE_PRC152", 4];
+	};
+	
 
 // LOADOUT: DEFAULT/UNDEFINED (use RIFLEMAN)
    default

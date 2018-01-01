@@ -1,5 +1,6 @@
 params ["_laptop", "_text", "_scriptPath"];
 
+if (!isServer) exitWith {};
 
 _onLaptopInvestigate = compile format 
 [
@@ -44,7 +45,7 @@ _onTakeIntel =
 		true, 
 		"", 
 		"true", 
-		2
+		3
 	]
 	
 ] remoteExec ["addAction", 0];

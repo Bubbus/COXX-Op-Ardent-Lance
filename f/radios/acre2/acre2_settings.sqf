@@ -18,7 +18,7 @@ f_radios_settings_acre2_disableFrequencySplit = FALSE;
 f_radios_settings_acre2_shortRange = nil;
 
 // Set the list of units that get a long range
-f_radios_settings_acre2_longRange = ["co", "dc", "vc", "pp", "ftl"];
+f_radios_settings_acre2_longRange = ["co", "dc", "vc", "pp", "uk-ftl", "ger-ftl", "rus-ftl", "chi-ftl", "zeus"];
 
 // Unit types you want to give an extra long-range radio
 // E.G: ["co", "m"] would give the CO and all medics an extra long-range radios
@@ -54,7 +54,7 @@ f_radios_settings_acre2_sr_groups_blufor = [
     ["GRIFFIN",    ["Griffin"]],
     ["PELMEN",    ["Pelmen"]],
     ["CHAOXI",    ["Chaoxi"]],
-    ["MG SUP",     ["MMG1","HMG1"]],
+    ["OVERFLOW",     ["Overflow"]],
     ["AT SUP",  ["MAT1","HAT1"]],
     ["MORTAR SUP",     ["MTR1"]],
     ["AA SUP",    ["MSAM1","HSAM1"]],

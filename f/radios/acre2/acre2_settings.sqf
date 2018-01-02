@@ -18,7 +18,7 @@ f_radios_settings_acre2_disableFrequencySplit = FALSE;
 f_radios_settings_acre2_shortRange = nil;
 
 // Set the list of units that get a long range
-f_radios_settings_acre2_longRange = ["co", "dc", "vc", "pp"];
+f_radios_settings_acre2_longRange = ["co", "dc", "vc", "pp", "ftl"];
 
 // Unit types you want to give an extra long-range radio
 // E.G: ["co", "m"] would give the CO and all medics an extra long-range radios
@@ -36,13 +36,13 @@ f_radios_settings_acre2_extraRadio = "ACRE_PRC117F";
 
 // Defines the languages that exist in the mission.
 // string id, displayname
-f_radios_settings_acre2_languages = [["english","English"],["farsi","Farsi"],["greek","Greek"]];
+f_radios_settings_acre2_languages = [["english","English"]];
 
 // defines the language that a player can speak.
 // can define multiple
 f_radios_settings_acre2_language_blufor = ["english"];
-f_radios_settings_acre2_language_opfor = ["farsi"];
-f_radios_settings_acre2_language_indfor = ["greek"];
+f_radios_settings_acre2_language_opfor = ["english"];
+f_radios_settings_acre2_language_indfor = ["english"];
 
 // Channel names and group defaults
 // first item in the array will correspond to the first channel
@@ -50,10 +50,10 @@ f_radios_settings_acre2_language_indfor = ["greek"];
 // note that if using a 343 only the first 16 channels are available for the short-range array
 // also note these only work if f_radios_settings_acre2_disableFrequencySplit is set to false
 f_radios_settings_acre2_sr_groups_blufor = [
-    ["ALPHA",    ["ASL","A1","A2","A3"]],
-    ["BRAVO",    ["BSL","B1","B2","B3"]],
-    ["CHARLIE",  ["CSL","C1","C2","C3"]],
-    ["COMMAND",    ["CO"]],
+    ["SERVAL",    ["Serval"]],
+    ["GRIFFIN",    ["Griffin"]],
+    ["PELMEN",    ["Pelmen"]],
+    ["CHAOXI",    ["Chaoxi"]],
     ["MG SUP",     ["MMG1","HMG1"]],
     ["AT SUP",  ["MAT1","HAT1"]],
     ["MORTAR SUP",     ["MTR1"]],
@@ -82,7 +82,7 @@ f_radios_settings_acre2_sr_groups_opfor = f_radios_settings_acre2_sr_groups_bluf
 f_radios_settings_acre2_sr_groups_indfor = f_radios_settings_acre2_sr_groups_blufor;
 
 f_radios_settings_acre2_lr_groups_blufor = [
-    ["GRND COMMAND 1",    ["CO","ASL","BSL","CSL","ENG1","MMG1","HMG1","MAT1","HAT1","MTR1","MSAM1","HSAM1","ST1","DT1"]],
+    ["GRND COMMAND 1",    ["CO","Serval","Griffin","Pelmen","Chaoxi","MMG1","HMG1","MAT1","HAT1","MTR1","MSAM1","HSAM1","ST1","DT1"]],
     ["GRND COMMAND 2",    ["IFV1","IFV2","IFV3","IFV4","IFV5","IFV6","IFV7","IFV8","TNK1"]],
     ["AIR",  ["TH1","TH2","TH3","T4","TH5","TH6","TH7","TH8","AH1"]],
     ["FAC",	 []],

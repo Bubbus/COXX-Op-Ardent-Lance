@@ -324,8 +324,8 @@ class CfgDebriefing
 {
 	class End1
 	{
-		title = "Ending #1";
-		subtitle = "";
+		title = "Serum Recovered!";
+		subtitle = "Please don't drop it.";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
 		// picture = "";
@@ -334,8 +334,8 @@ class CfgDebriefing
 
 	class End2
 	{
-		title = "Ending #2";
-		subtitle = "";
+		title = "Lost to the horde.";
+		subtitle = "Fear not; your brains were delicious.";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
 		// picture = "";
@@ -344,8 +344,8 @@ class CfgDebriefing
 
 	class End3
 	{
-		title = "Ending #3";
-		subtitle = "";
+		title = "Successful exfiltration.";
+		subtitle = "Shame about that serum though...";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
 		// picture = "";
@@ -354,8 +354,8 @@ class CfgDebriefing
 
 	class End4
 	{
-		title = "Ending #4";
-		subtitle = "";
+		title = "Invasion repelled.";
+		subtitle = "Those N.K. remnants didn't get the memo.";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
 		// picture = "";
@@ -629,11 +629,6 @@ class CfgFunctions
 			class addGroupToZeus
 			{
 				file = "bub\bub_fnc_addGroupToZeus.sqf";
-			};
-			class acreSetup
-			{
-				file = "bub\bub_fnc_acreSetup.sqf";
-				postInit = 1;
 			};
 			class revealMarkersOnDeleted
 			{

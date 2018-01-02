@@ -5,21 +5,21 @@ _units =
 [
 	[
 		"NK Infantry",
-		"inf", "blu_f", west,
+		"inf", "opf_f", east,
 		[
 			[
 				"NK Rifleman",
-				["nk-rif"]
+				["rif"]
 			],
 		
 			[
 				"NK AR Team",
-				["nk-ar", "nk-rif", "nk-rif"]
+				["ar", "rif", "rif"]
 			],
 		
 			[
 				"NK Squad 6x",
-				["nk-ar", "nk-rif", "nk-rif", "nk-rif", "nk-rif", "nk-rif"]
+				["sl", "ar", "rif", "rif", "rif", "rif"]
 			]
 		]
 	]

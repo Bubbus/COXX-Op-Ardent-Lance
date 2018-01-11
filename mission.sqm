@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=10;
+		nextID=13;
 	};
 	class Camera
 	{
-		pos[]={1456.7377,341.68799,13327.184};
-		dir[]={0.29614976,-0.50712121,-0.80946892};
-		up[]={0.17424837,0.86185664,-0.47627646};
-		aside[]={-0.93917179,-1.1967495e-007,-0.3435981};
+		pos[]={58.063904,662.36108,15241.622};
+		dir[]={0.73811185,-0.45488277,-0.49831128};
+		up[]={0.37701958,0.89054716,-0.25453192};
+		aside[]={-0.55955225,-7.3574483e-008,-0.82882375};
 	};
 };
 binarizationWanted=0;
@@ -86,6 +86,7 @@ addons[]=
 	"Ryanzombies",
 	"PRAA_statics",
 	"A3_Data_F_ParticleEffects",
+	"Blastcore_VEP",
 	"A3_Rocks_F_Blunt",
 	"CUP_CAStructures_E_Misc_Misc_Market",
 	"A3_Props_F_Exp_Commercial_Market",
@@ -166,7 +167,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=95;
+		items=96;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -431,350 +432,355 @@ class AddonsMetaData
 		};
 		class Item41
 		{
+			className="Blastcore_VEP";
+			name="Blastcore_VEP";
+		};
+		class Item42
+		{
 			className="A3_Rocks_F";
 			name="Arma 3 - Rocks and Stones";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item42
+		class Item43
 		{
 			className="CUP_CAStructures_E_Misc_Misc_Market";
 			name="CUP_CAStructures_E_Misc_Misc_Market";
 		};
-		class Item43
+		class Item44
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item44
+		class Item45
 		{
 			className="rhsgref_c_vehicles_ret";
 			name="GREF Vehicle Retextures";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item45
+		class Item46
 		{
 			className="rhsusf_c_troops";
 			name="RHSUSF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item46
+		class Item47
 		{
 			className="hlcweapons_aks";
 			name="hlcweapons_aks";
 			author="toadie";
 		};
-		class Item47
+		class Item48
 		{
 			className="HLC_COMPAT2_RHS_AK";
 			name="HLC_COMPAT2_RHS_AK";
 			author="Robalo";
 		};
-		class Item48
+		class Item49
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item49
+		class Item50
 		{
 			className="ace_ballistics";
 			name="ACE3 - Ballistics";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item50
+		class Item51
 		{
 			className="ace_smallarms";
 			name="ACE3 - Small Arms";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item51
+		class Item52
 		{
 			className="ace_optics";
 			name="ACE3 - Optics";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item52
+		class Item53
 		{
 			className="UNS_Headgear";
 			name="UNS_Headgear";
 		};
-		class Item53
+		class Item54
 		{
 			className="rhs_c_troops";
 			name="AFRF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item54
+		class Item55
 		{
 			className="ace_common";
 			name="ACE3 - Common";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item55
+		class Item56
 		{
 			className="UK3CB_BAF_Equipment_Vests";
 			name="3CB BAF Equipment - Vests";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item56
+		class Item57
 		{
 			className="hlcweapons_G36";
 			name="hlcweapons_G36";
 			author="toadie";
 		};
-		class Item57
+		class Item58
 		{
 			className="ace_compat_rhs_usf3";
 			name="ACE3 - RHS USF Compatibility";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item58
+		class Item59
 		{
 			className="ace_vector";
 			name="ACE3 - Vector";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item59
+		class Item60
 		{
 			className="Cre8ive_Gear_Bw";
 			name="Cre8ive - Bundeswehr characters and clothing";
 			author="Cre8or";
 		};
-		class Item60
+		class Item61
 		{
 			className="ace_maptools";
 			name="ACE3 - Map Tools";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item61
+		class Item62
 		{
 			className="acre_sys_prc343";
 			name="ACRE2 - AN/PRC-343";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item62
+		class Item63
 		{
 			className="ace_flashlights";
 			name="ACE3 - Flashlights";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item63
+		class Item64
 		{
 			className="ace_attach";
 			name="ACE3 - Attach";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item64
+		class Item65
 		{
 			className="ace_chemlights";
 			name="ace_chemlights";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item65
+		class Item66
 		{
 			className="ace_captives";
 			name="ACE3 - Captives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item66
+		class Item67
 		{
 			className="ace_yardage450";
 			name="ACE3 - Yardage 450";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item67
+		class Item68
 		{
 			className="us_military_units";
 			name="us_military_units";
 		};
-		class Item68
+		class Item69
 		{
 			className="acre_sys_prc152";
 			name="ACRE2 - AN/PRC-152";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item69
+		class Item70
 		{
 			className="rhsgref_c_troops";
 			name="GREF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item70
+		class Item71
 		{
 			className="A3_Weapons_F_Exp";
 			name="Arma 3 Apex - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item71
+		class Item72
 		{
 			className="UK3CB_BAF_Weapons_SmallArms";
 			name="3CB BAF Weapons - Small Arms";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item72
+		class Item73
 		{
 			className="RKSL_RMR";
 			name="RKSL_RMR";
 		};
-		class Item73
+		class Item74
 		{
 			className="UK3CB_BAF_Weapons_Ammo";
 			name="3CB BAF Weapons - Ammo";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item74
+		class Item75
 		{
 			className="hlcweapons_core";
 			name="hlcweapons_core";
 			author="toadie";
 		};
-		class Item75
+		class Item76
 		{
 			className="UK3CB_BAF_Weapons_Accessories";
 			name="3CB BAF Weapons - Accessories";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item76
+		class Item77
 		{
 			className="mpx_headgear";
 			name="mpx_headgear";
 		};
-		class Item77
+		class Item78
 		{
 			className="Virtus_Character_F";
 			name="Virtus_Character_F";
 		};
-		class Item78
+		class Item79
 		{
 			className="mpx_Outfits_Vest";
 			name="mpx_Outfits_Vest";
 		};
-		class Item79
+		class Item80
 		{
 			className="RKSL_LDS";
 			name="RKSL_LDS";
 		};
-		class Item80
+		class Item81
 		{
 			className="FHQ_Accessories";
 			name="FHQ_Accessories";
 			author="Alwarren";
 		};
-		class Item81
+		class Item82
 		{
 			className="rhs_sounds";
 			name="AFRF Sounds";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item82
+		class Item83
 		{
 			className="ace_compat_rhs_afrf3";
 			name="ACE3 - RHS AFRF Compatibility";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item83
+		class Item84
 		{
 			className="CUP_Vysilac_DBE1";
 			name="CUP_Vysilac_DBE1";
 		};
-		class Item84
+		class Item85
 		{
 			className="A3_Supplies_F_Exp";
 			name="Arma 3 Apex - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item85
+		class Item86
 		{
 			className="A3_Weapons_F_Mark";
 			name="Arma 3 Marksmen - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item86
+		class Item87
 		{
 			className="ace_overheating";
 			name="ACE3 - Overheating";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item87
+		class Item88
 		{
 			className="ace_ai";
 			name="ACE3 - AI";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item88
+		class Item89
 		{
 			className="ace_laserpointer";
 			name="ACE3 - Laser Pointer";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item89
+		class Item90
 		{
 			className="ace_nightvision";
 			name="ACE3 - Night Vision";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item90
+		class Item91
 		{
 			className="ace_reload";
 			name="ACE3 - Reload";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item91
+		class Item92
 		{
 			className="CUP_CA_Config";
 			name="CUP_CA_Config";
 		};
-		class Item92
+		class Item93
 		{
 			className="rhs_main";
 			name="rhs_main";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item93
+		class Item94
 		{
 			className="A3_Structures_F_EPB";
 			name="Arma 3 Adapt Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item94
+		class Item95
 		{
 			className="ace_interaction";
 			name="ACE3 - Interaction";
@@ -992,7 +998,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="#adminVoted";
+							value="zeus_player";
 						};
 					};
 				};
@@ -21831,6 +21837,7 @@ class Mission
 					class Attributes
 					{
 						init="call{[this] call bub_fnc_registerZeusPlayer;" \n "[""zeus"", this] call f_fnc_assignGear;}";
+						name="zeus_player";
 						description="Zeus Player";
 						isPlayable=1;
 						class Inventory
@@ -28856,16 +28863,26 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=1;
+			nextID=2;
 		};
 		class Links
 		{
-			items=1;
+			items=2;
 			class Item0
 			{
 				linkID=0;
 				item0=794;
 				item1=2161;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item1
+			{
+				linkID=1;
+				item0=107;
+				item1=794;
 				class CustomData
 				{
 					type="Sync";
